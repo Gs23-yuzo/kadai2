@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>じゃんけん App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="title">- サラリーマンの日常 -《稟議書編》</h1>
+        
+        <p><span class="title_typing" id="title_animation">あなたは、とある日本企業に勤めるサラリーマン。ある日、一緒にプロジェクトを進めてる同僚から連絡が…
+        <br>
+        <br>「今日中に稟議を通さないといけない案件がある。お前も関わっているあの案件だ。
+        <br>ただ今日俺は風邪をひいて出社できそうにない…。そこでお前に代わりに行ってもらいたい…。」
+        <br>
+        <br>決裁者の名前を聞くと…社内でも厳しいXX部長だ…！
+        <br>
+        <br>「こいつ…XX部長のトコに行きたくないだけなんじゃ…」なんて思いつつも仕方なく引き受けることに。
+        <br>
+        <br>ただ行っても突き返されるだけだ…何か作戦が必要だ…さぁどうする！！！
+        </span>
+        </p>
+        <button class="title_btn">表示 / 非表示</button>
+    </header>
+
+    <div class="menber_intro">
+        <div class="who_company">
+            <div class="who_company_1">
+                <p>you</p>
+                <img class="you_image" src="images/you.jpeg" alt="">
+            </div>
+        </div>
+       
+        <div class="vs">
+            <p>VS</p>
+        </div>
+
+        <div class="who_enemy">
+            <div class="who_enemy_1">
+                <p>BOSS</p>
+                <img class="who_enemy_img" src="images/enemy.png" alt="">
+            </div>
+        </div>
+    </div>
+        <div class="btn_section">
+            <div id="g_btn_str"></div>
+            <button class="btn" data-score="0">熱い気持ちブツける</button>
+            <button class="btn" data-score="1">とにかくゴマを擦る</button>
+            <button class="btn" data-score="2">お気に入りの差し入れを持っていく</button>
+            <br>
+            <br>
+        </div>
+            <div id="g_resultArea"></div>
+        
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+    <script src="js/rps.js"></script>
+</body>
+</html>
+

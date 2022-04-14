@@ -1,0 +1,125 @@
+
+body{
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.header{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center; 
+  }
+
+.title{
+  padding: 20px 0 0 0;
+}  
+
+.title_btn{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+  font-family: 'DotGothic16', sans-serif;
+  padding: 5px 5px;
+  margin: 5px;
+}
+
+.title_btn:hover{
+  margin-top: 3px;
+  color: black;
+  background: white;
+}
+
+.title_typing{
+  padding: 0 0 20px 0;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+  }
+  
+  .menber_intro{
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .who_company{
+    display: flex;
+    justify-content: center;
+  }
+
+  .who_company_1:hover{
+    opacity: 0.3;
+    color: white;
+  }
+
+  .who_company_1 p {
+    font-size: 20px;
+    font-weight: bold;
+    color: transparent;
+    transition: 0.5s;
+  }
+
+  .who_company_1:hover p {
+    color: black;
+  }
+  
+  .vs{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 120px 10px;
+  }
+  
+  .who_enemy{
+    display: flex;
+    justify-content: center;
+  }
+
+  .who_enemy_1:hover{
+    opacity: 0.3;
+    color: white;
+  }
+
+  .who_enemy_1 p {
+    font-size: 20px;
+    font-weight: bold;
+    color: transparent;
+    transition: 0.5s;
+  }
+
+  .who_enemy_1:hover p {
+    color: black;
+  }
+
+  .btn_section{
+    display: flex;
+    justify-content: center;
+  }
+
+.btn{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.btn:hover{
+  margin-top: 3px;
+  color: #fff;
+  background: #f56500;
+  border-bottom: 2px solid #b84c00;
+}
+
+#g_resultArea{
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+  
+
+  
+  
